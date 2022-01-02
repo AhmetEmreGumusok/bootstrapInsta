@@ -1,0 +1,80 @@
+
+::placeholder{
+  text-align: left; /*Yeni halinde solda*/
+  font-size: 12px;
+  color: gray;
+  /* background-position: 40%; */
+  /* background-size: 0; */
+  height: 12px;
+  background: url(../assets/search-solid.svg);
+  background-repeat: no-repeat;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+/* ------------- benim eklediklerim -------------------------- */
+.card-header, .card-footer {
+  background-color: #fff;
+}
+
+/* ... simgesi ve yorum paylaş yazısı için */
+.card-header span:last-of-type, .card-footer span:last-of-type {
+  display: block;
+  float: right;
+}
+
+/* bookmark simgesi için */
+ul span {
+  margin-left: auto;
+  margin-right: -10px;
+}
+
+#sticky-sidebar {
+  position: fixed;
+  border: none;
+  background-color: white;
+}
+
+#sticky-sidebar span:last-of-type strong {
+  display: block;
+  float: right;
+}
